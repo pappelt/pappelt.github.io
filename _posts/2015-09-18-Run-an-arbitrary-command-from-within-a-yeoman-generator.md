@@ -2,7 +2,7 @@
 layout: post
 title: "Run an arbitrary command from within a yeoman generator"
 date: 2015-09-18
-categories: code grunt
+tags: code, grunt
 ---
 Okay, this is pretty basic, but for documentation purposes: the [Yeoman API][0] states
 that ``installDependencies`` can take a callback parameter.

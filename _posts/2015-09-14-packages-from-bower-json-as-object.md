@@ -2,7 +2,7 @@
 layout: post
 title: "Retrieve all packages from bower.json as Object in your Gruntfile"
 date: 2015-09-14
-categories: code grunt
+tags: code, grunt
 ---
 To retrieve the dependencies this line is used:
 
