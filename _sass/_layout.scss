@@ -175,6 +175,12 @@
 .post-link {
     display: block;
     font-size: 24px;
+
+    a:link,
+    a:active,
+    a:visited {
+      color: $blue;
+    }
 }
 
 
@@ -190,6 +196,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    color: $blue;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -198,6 +205,19 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+
+    h2, h3, h4 { color: $violet; }
+
+    a:link,
+    a:active,
+    a:visited {
+      color: $magenta;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
 
     h2 {
         font-size: 32px;
@@ -208,6 +228,8 @@
     }
 
     h3 {
+        border-bottom: 1px solid $base00;
+        line-height: 40px;
         font-size: 26px;
 
         @include media-query($on-laptop) {
