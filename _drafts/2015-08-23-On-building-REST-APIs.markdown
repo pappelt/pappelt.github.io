@@ -2,7 +2,6 @@
 layout: post
 title: "Some thoughts on building a REST API in PHP"
 date: "2015-08-23 05:40"
-published: false
 tags: php
 ---
 Using REST APIs on a day to day basis does not automagically make you an export in creating them as well i did a little research work on that topic.

@@ -2,7 +2,7 @@
 layout: post
 title: "Giving i3wm a try"
 date: "2015-10-27 16:57"
-published: true
+published: false
 ---
 While i really like to handle my tools via keyboard shortcuts, i tend to handle my windows with the mouse or trackpad.
 
