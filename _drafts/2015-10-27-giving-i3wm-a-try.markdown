@@ -12,7 +12,7 @@ Maybe it's the absence of the trackpad and gesture control and [Moom][0], i can'
 As the number of tools i use on the aforementioned box is quite overseeable, i thought that i could give the [i3wm][1] a try.
 
 For my taste, i3 needs a little love in the beginning, so here is what i did.
-You can find a list of sources i used at the end of this post.
+You can find a list of sources i used as links in the corresponding section.
 
 
 Locking & shutdown (-r|-h)
@@ -73,6 +73,13 @@ This mode is inspired by [https://github.com/Feh/configs/blob/master/.i3/config]
 
 Another set of configuration examples (mostly workspaces)
 https://github.com/aswen/dotfiles/blob/master/i3wm-config
+
+
+### Getting Nautilus back to work
+
+Issue the following command in the terminal to have Nautilus working like you're (probably) used to:
+
+  gsettings set org.gnome.desktop.background show-desktop-icons false
 
 [0]: https://manytricks.com/moom/
 [1]: http://i3wm.org/
