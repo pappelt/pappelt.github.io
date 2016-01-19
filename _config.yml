@@ -2,7 +2,7 @@
 title: Alien Technology Aftermath | bad-science.net
 email:  mail@bad-science.net
 description: > # this means to ignore newlines until "baseurl:"
-  Ohai, you just found my loose-leaf collection of things i found or thought while coding. *All content is 'work in progress'.*
+  Ohai, you just found my loose-leaf collection of things i found or thought while coding.<br /><strong>All content is 'work in progress'.</strong>
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://pappelt.github.io" # the base hostname & protocol for your site
 github_username:  pappelt
