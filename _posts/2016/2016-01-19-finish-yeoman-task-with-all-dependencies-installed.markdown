@@ -15,9 +15,9 @@ Here is the a step for your index.js which enables you to do so:
         {
           npm: true,
           bower: true,
-          skipInstall: false,
-          callback: function() { this.spawnCommand('grunt', ['init'])}.bind(this)
+          skipInstall: false
         })
       }
 
-[c2838604]: http://yeoman.io "Yeoman Project Page"
+
+  [c2838604]: http://yeoman.io "Yeoman Project Page"
